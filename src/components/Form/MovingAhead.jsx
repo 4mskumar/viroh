@@ -14,13 +14,14 @@ const MovingAhead = () => {
         </p>
       </div>
 
-      <div className='mt-10 flex flex-col lg:flex-row gap-10'>
+      <div className='mt-10 flex items-center lg:flex-row gap-10'>
         <div className='w-full lg:w-1/2'>
           <img src='/images/logowotext.png' className='w-full' alt='' />
         </div>
         <div className='w-full lg:w-1/2'>
           <Form />
         </div>
+        <img className='object-cover h-[20rem]' src='/images/qr.jpeg' />
       </div>
     </div>
   );
