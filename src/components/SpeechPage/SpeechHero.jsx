@@ -22,17 +22,29 @@ const SpeechHero = () => {
           </div>
 
           {/* Text Section */}
-          <div className="w-full lg:w-1/2">
-            <h2 className="text-2xl md:text-3xl font-semibold text-navy font-inter tracking-tight mb-6">
-              Empowering Every Learner at Viroh
-            </h2>
-            <p className="text-lg text-justify md:text-xl lg:text-2xl tracking-tight font-inter text-navy font-medium">
-              At Viroh, we proudly offer support and guidance for students pursuing education through the National Institute of Open Schooling (NIOS). Whether learners need flexibility, individualized attention, or a second chance at academics, Viroh creates a nurturing space where every child can thrive.
-            </p>
-            <p className="text-lg text-justify md:text-xl lg:text-2xl mt-6 tracking-tight font-inter text-navy font-medium">
-              Our dedicated team ensures that each student feels seen, supported, and confident in their learning journey.
-            </p>
-          </div>
+          {/* Text Section */}
+<div className="w-full lg:w-1/2">
+  <h2 className="text-2xl md:text-3xl font-semibold text-navy font-inter tracking-tight mb-6">
+    Building Communication with Confidence
+  </h2>
+
+  <p className="text-lg text-justify md:text-xl lg:text-2xl tracking-tight font-inter text-navy font-medium leading-relaxed">
+    At Viroh, our Speech and Language Therapy program focuses on helping
+    individuals develop effective communication skills and improve their
+    ability to express themselves confidently. We support children,
+    adolescents, and individuals with speech delays, language disorders,
+    communication difficulties, articulation concerns, and social
+    communication challenges in a compassionate and encouraging environment.
+  </p>
+
+  <p className="text-lg text-justify md:text-xl lg:text-2xl mt-6 tracking-tight font-inter text-navy font-medium leading-relaxed">
+    Our therapy sessions are personalized according to individual needs and
+    aim to strengthen speech clarity, language development, listening skills,
+    comprehension, and social interaction. Through structured interventions
+    and engaging activities, we help individuals build confidence,
+    independence, and meaningful communication in their everyday lives.
+  </p>
+</div>
         </div>
       </div>
     </div>
