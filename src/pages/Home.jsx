@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div>
       <Nav />
-      {showStickyNav && <StickyNav />}
+      {/* {showStickyNav && <StickyNav />} */}
       <Carousel />
       <About />
       <div className="px-4 sm:px-10 md:px-20">
