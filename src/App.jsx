@@ -20,6 +20,7 @@ import FuncationalAcad from './pages/FuncationalAcad';
 import OccupationalTherapyPage from './pages/OccupationalTherapyPage';
 import MakeupPage from './pages/MakeupPage';
 import ParentPage from './pages/ParentPage';
+import Counselling from './pages/Counselling';
 
 const App = () => {
 
@@ -57,6 +58,7 @@ lenis.on('scroll', (e) => {
         <Route path='/occupational-therapy' element={<OccupationalTherapyPage />}/>              
         <Route path='/vocational-training' element={<MakeupPage />}/>              
         <Route path='/parental-child-counseling' element={<ParentPage />}/>              
+        <Route path='/counseling-home' element={<Counselling />}/>              
       </Routes>
     </div>
   );

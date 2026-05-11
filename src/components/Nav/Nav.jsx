@@ -105,7 +105,7 @@ const Nav = () => {
         })}
 
         {/* Distinct CTA */}
-        <a href="/contact">
+        <a href="/counseling-home">
           <button className="bg-crimson animate-pulse text-white px-6 py-3 rounded-full text-sm font-semibold tracking-wide hover:scale-105 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-crimson">
             Free Counselling
           </button>

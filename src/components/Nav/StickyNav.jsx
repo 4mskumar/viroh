@@ -85,8 +85,8 @@ const StickyNav = () => {
         })}
 
         {/* CTA Button */}
-        <a href="/contact">
-          <button className="bg-crimson text-white px-6 py-3 rounded-full text-sm font-semibold tracking-wide shadow-lg hover:scale-105 hover:bg-navy transition-all duration-300">
+        <a href="/counseling-home">
+          <button className="bg-crimson animate-pulse text-white px-6 py-3 rounded-full text-sm font-semibold tracking-wide shadow-lg hover:scale-105 hover:bg-navy transition-all duration-300">
             Free Counselling
           </button>
         </a>
