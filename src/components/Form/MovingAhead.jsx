@@ -5,7 +5,7 @@ import SpotlightCard from "../SpotlightCard";
 
 const MovingAhead = () => {
   const message = encodeURIComponent(
-    "Hello, I want to know more about counselling sessions.",
+    "Hello, I want to know more about your services.",
   );
 
   const whatsappLink = `https://wa.me/918700736147?text=${message}`;

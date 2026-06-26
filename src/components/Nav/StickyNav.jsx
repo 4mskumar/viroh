@@ -127,7 +127,7 @@ const StickyNav = () => {
           {/* CTA */}
           <a href="/counseling-home">
             <button className="px-6 py-3 rounded-full bg-[#D8B6A4] hover:bg-[#CFA18A] transition-all duration-300 text-sm font-semibold text-[#1F1F1F] hover:scale-[1.03] shadow-sm">
-              Free Counselling
+              Free Counselling for Mental Health
             </button>
           </a>
         </div>

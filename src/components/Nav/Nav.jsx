@@ -152,8 +152,8 @@ const Nav = () => {
       {/* CTA */}
       <div className="hidden md:block">
         <a href="/counseling-home">
-          <button className="px-6 py-3 rounded-full bg-[#D8B6A4] hover:bg-[#CFA18A] transition-all duration-300 text-sm font-semibold font-inter text-[#1F1F1F] hover:scale-[1.03]">
-            Free Counselling
+          <button className="px-6 py-3 animate-bounce rounded-full bg-[#D8B6A4] hover:bg-[#CFA18A] transition-all duration-300 text-sm font-semibold font-inter text-[#1F1F1F] hover:scale-[1.03]">
+            Free Counselling for Mental Health
           </button>
         </a>
       </div>
@@ -281,8 +281,8 @@ const Nav = () => {
               onClick={() => setMenuOpen(false)}
               className="mt-4"
             >
-              <button className="w-full py-4 rounded-full bg-[#D8B6A4] hover:bg-[#CFA18A] transition-all duration-300 text-[#1F1F1F] font-semibold font-inter">
-                Free Counselling
+              <button className="w-full animate-bounce py-4 rounded-full bg-[#D8B6A4] hover:bg-[#CFA18A] transition-all duration-300 text-[#1F1F1F] font-semibold font-inter">
+                Free Counselling for Mental Health
               </button>
             </a>
           </div>
