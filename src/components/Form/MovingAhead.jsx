@@ -8,7 +8,7 @@ const MovingAhead = () => {
     "Hello, I want to know more about counselling sessions.",
   );
 
-  const whatsappLink = `https://wa.me/8700736147?text=${message}`;
+  const whatsappLink = `https://wa.me/918700736147?text=${message}`;
   return (
     <div
       data-scroll
