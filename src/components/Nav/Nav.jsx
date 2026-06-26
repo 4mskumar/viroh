@@ -37,7 +37,7 @@ const Nav = () => {
   };
 
   return (
-  <header className="w-full sticky top-0 z-[999] border-b border-[#E9E1D7] relative overflow-hidden">
+  <header className="w-full sticky top-0 z-[999] border-b border-[#E9E1D7] relative overflow-visible">
     {/* Gradient Layer */}
     <div className="absolute inset-0 bg-gradient-to-r from-white via-white/75 to-white" />
 
@@ -179,7 +179,7 @@ const Nav = () => {
           animate={{ height: "auto", opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
-          className="md:hidden overflow-hidden relative border-t border-[#EFE7DD]"
+          className="md:hidden relative border-t border-[#EFE7DD] overflow-y-auto max-h-[calc(100vh-80px)]"
         >
           {/* Gradient */}
           <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-white" />
